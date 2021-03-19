@@ -31,7 +31,7 @@
       
       /* Fix box-shaddow (Bootstrap lg-shaddow) - Convert to circle not box */
       img {
-        border-raduis: 50% !important;
+        border-radius: 50% !important;
       }
       
       @include respond(tab-land) {

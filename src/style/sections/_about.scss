@@ -28,7 +28,12 @@
       height: 100%;
       align-items: center;
       justify-content: center;
-
+      
+      /* Fix box-shaddow (Bootstrap lg-shaddow) - Convert to circle not box */
+      img {
+        border-radius: 50% !important;
+      }
+      
       @include respond(tab-land) {
         height: 100%;
       }
